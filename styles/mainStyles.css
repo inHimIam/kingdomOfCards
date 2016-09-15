@@ -1,0 +1,6 @@
+.main-container {
+    background: url(https://images.unsplash.com/photo-1465844976020-e81b58140685?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=802&q=80&cs=tinysrgb);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+}

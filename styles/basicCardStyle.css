@@ -3,6 +3,9 @@
     color: gray;
     border-radius: 6px;
     border: 3.5px solid black;
+    position: absolute;
+    top: 60px;
+    left: 588px;
     height: 285px;
     width: 230px;
     padding: 2px;
