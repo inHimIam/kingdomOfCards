@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="cardsApp">
     <head>
         <title>Kingdom Out Of Cards</title>
         <meta charset="UTF-8">
@@ -7,9 +7,10 @@
         <link href="./styles/mainStyles.css" rel="stylesheet">
         <link href="./styles/basicCardStyle.css" rel="stylesheet">
     </head>
-    <body>
+    <body ng-controller="cardController">
         <section class="main-container">
-            
+            <h1>{{greet}}</h1>
+            <h2></h2>
             <div class ="basic-card">
                 <div class=name-title-bar>
                 <ul class="name">King Armand Uproar</p>
@@ -24,5 +25,14 @@
             </div>
     
         </section>
+        <!--Core Angular-->
+        <script src="https://code.angularjs.org/1.5.8/angular.min.js"></script>
+        <!--angular Module-->
+        <script src="./main.js"></script>
+        <!--angular controllers-->
+        <!--<script src=".js/Controllers"></script>-->
+        <!--Angular Directives-->
+        <script src="./js/Directives/cardDirectives/cardFooterDirective.js"></script>
+        <script src="./js/Directives/cardDirectives/cardHeaderDirective.js"></script>
     </body>
 </html>
