@@ -13,7 +13,7 @@
             <h2></h2>
             <div class ="basic-card">
                 <div class=name-title-bar>
-                <ul class="name">King Armand Uproar</p>
+                <ul class="name">{{name}}</p>
                 <ul class="age"></ul> 
             </div>
             <div class="card-image-container">     
@@ -22,6 +22,7 @@
             <div class="flavor-text">
                 <p>I am the flavor of this text! I will descibe the character and what they are good in and what they lack</p>
             </div>
+            <div class="card-status copyright">{{copyright}}&copy</div>
             </div>
     
         </section>
@@ -30,9 +31,8 @@
         <!--angular Module-->
         <script src="./main.js"></script>
         <!--angular controllers-->
-        <!--<script src=".js/Controllers"></script>-->
+        <script src="./js/Controllers/cardController.js"></script>
         <!--Angular Directives-->
-        <script src="./js/Directives/cardDirectives/cardFooterDirective.js"></script>
-        <script src="./js/Directives/cardDirectives/cardHeaderDirective.js"></script>
+       
     </body>
 </html>

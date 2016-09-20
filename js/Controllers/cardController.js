@@ -1,4 +1,5 @@
 'use strict'
 app.controller('cardController', function($scope){
-    $scope.greet = 'hello from card controller';
+    $scope.copyright = 'jCbGames';
+    $scope.name = "King Armand Uproar"
 });

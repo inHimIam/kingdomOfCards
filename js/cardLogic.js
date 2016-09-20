@@ -1,0 +1,1 @@
+// an array of objects (the cards) each one including the header (name,age) img, flavortxt &/or stats, footer (copyright, noterity) these to be bound to the card view

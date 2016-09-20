@@ -1,4 +1,4 @@
-var app = angular.module('cardsApp', ['ui.router']);
+var app = angular.module('cardsApp',[]);
     console.log('hello from angular')
 // app.config(function($stateProvider, $urlRouterProvider) {
 // compare for routing use later

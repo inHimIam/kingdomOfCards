@@ -47,6 +47,10 @@
     background: white;
     width: 94%;
 }
+.card-status {
+    position: absolute;
+    
+}
 .flavor-text p {
     border-bottom: 4px solid black;
     border-right: 4px solid black;
